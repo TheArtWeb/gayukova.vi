@@ -327,6 +327,18 @@ html, body  {
     margin-bottom: 55px;
 }
 
+.smm {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #BE8C74;
+    margin-bottom: 55px; 
+}
+
 .tables {
     display: flex;
     max-width: 100%;
@@ -666,4 +678,360 @@ html, body  {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #9EA2AD;
+}
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 992px;
+    }
+
+    .header :after {
+        content: '';
+        width: 65%;
+        height: 100%;
+        background: #FAF6F5;
+        position: absolute;
+        left: -110px;
+        top: -120px;
+        z-index: -1;
+    }
+    .header-nav {   
+        margin-left: 440px;
+
+    }
+
+    .header-title {
+        margin-left: 225px;
+        margin-bottom: 30px;
+    }
+
+    .header-img, .btn1 {
+        margin-left: 188px;
+    }
+
+    .about-text {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .gallery {
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .wrapper {
+        padding: 30px 30px;
+    }
+
+    .table-title {
+        
+    }
+
+    .tables {
+        max-width: 1200px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .table-1 {
+        width: 100%;
+    }
+
+    .table-2 {
+        width: 100%;
+    }
+
+    .tab-1 {
+        width: 50%;
+        padding: 0;
+        margin: ;
+    }
+
+    .tab-2 {
+        width: 50%;
+    }
+
+    .form{
+        padding-top: 60px;
+    }
+
+    .input {
+        width: 315px;
+    }
+      
+    .connect-photo {
+        width: 450px;
+        height: 450px;
+        padding-left: 0px;
+    }
+
+    .submit, .select {
+        width: 400px;
+    }
+
+    .contacts {
+        height: 300px;
+    
+    }
+    .contacts-imgs {
+        padding-top: 30px;
+        left: 50px;
+    }
+
+    .contacts-img {
+        width: 164px;
+        height: 164px;
+        padding-top: 50px;
+    }
+
+    .contacts-data {
+        left: 650px;
+        padding-top: 100px;
+        padding-left: 0px;
+}
+
+}
+
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .header :after {
+        content: '';
+        width: 65%;
+        height: 100%;
+        background: #FAF6F5;
+        position: absolute;
+        left: -110px;
+        top: -120px;
+        z-index: -1;
+    }
+    .header-nav {   
+        margin-left: 100px;
+        font-size: 12px;
+    }
+
+    .header-title {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .header-img {
+        margin: 0;
+    }
+
+     .gayukova-big {
+        padding-right: 0px;
+        width: 350px;
+        height: 350px;
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .btn1 {
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 250px;
+        font-size: 14px;
+    }
+
+    .header-collage {
+        display: none;
+    }
+
+    .gallery {
+
+    }
+
+    .tables {
+        flex-wrap: wrap;
+    }
+
+    .table-1 {
+        width: 100%;
+    }
+
+    .table-2 {
+        margin-top: 60px;
+    }
+
+    .tab-1 {
+        width: 50%;
+        padding: 0;
+    }
+
+    .tab-2 {
+        max-width: 900px;
+        width: 50%;
+        margin-left: 192px;
+        padding: 0;
+    }
+
+    .table-text1 {
+        margin-top: -20px;
+    }
+    .table-text2 {
+        margin-top: -18px;
+    }
+
+    .table-text3 {
+        margin-top: -18px;
+    }
+
+    .table-price {
+        display: inline-block;
+        width: 150px;
+    }
+
+    .connect {
+        flex-wrap: wrap;
+    }
+
+    .connect-photo {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .form {
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .input {
+        width: 365px;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .submit, .select {
+        width: 450px;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        margin-bottom: 15px;
+    }    
+
+    .contacts-imgs {
+        
+    }
+
+    .contacts-img1 {
+        height: 300px;
+        width: 310px;
+        position: absolute;
+        top: -50px;
+        left: -55px;
+        
+    }
+
+    .contacts-img2 {
+        display: none;
+    }
+
+     .contacts-img3 {
+        display: none;
+    }
+
+    .contacts-data {
+        left: 380px;
+        padding-top: 60px;
+    }
+
+    .contacts-item {
+        margin-bottom: 35px;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+        .container {
+        width: 100%;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .header :after {
+        content: '';
+        width: 50%;
+        height: 100%;
+        background: #FAF6F5;
+        position: absolute;
+        left: 0;
+        top: -120px;
+        z-index: -1;
+    }
+
+    .header-img {
+        display: block;
+        position: static;
+        margin: 0 auto;
+    }
+
+    .header-collage {
+        display: none;
+    }
+
+    .header-title {
+        position: relative;
+        top: 460px;
+        left: -345px;
+    }
+
+    .btn1 {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        margin: 180px 15px;
+    }
+    
+    .about-me {
+        display: block;
+        padding: 0px 15px;
+        width: 100%;    
+    }
+
+    .about-text {
+        display: block;
+        white-space: wrap;
+        padding: 0;
+        margin: 0;
+    }
+
+    .contacts-data {
+        left: 650px;
+        padding-top: 100px;
+        padding-left: 0px;
+}
+
 }
