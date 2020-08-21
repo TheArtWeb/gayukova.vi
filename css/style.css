@@ -459,6 +459,7 @@ body, html {
 .input {
     width: 454px;
     border: 1px solid #E7D4CB;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -469,7 +470,10 @@ body, html {
     margin-bottom: 24px;
     padding: 22px 60px 22px 24px;
     caret-color: #BE8C74;
+}
 
+.input::placeholder {
+    color: #9EA2AD;
 }
 
 .input:focus, 
@@ -533,7 +537,7 @@ body, html {
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 18px;
+    line-height: 15px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #262B38;
