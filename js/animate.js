@@ -53,7 +53,7 @@ window.onscroll = function () {
     element.style.setProperty("--animate-duration", "2.5s");
   }
 
-  if (window.pageYOffset > 4000) {
+  if (window.pageYOffset > 3900) {
     const element = document.querySelector(".poloska5");
     element.classList.add("animate__animated", "animate__fadeInLeft");
     element.style.setProperty("--animate-duration", "2.5s");
